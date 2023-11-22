@@ -10,6 +10,7 @@ Welcome to add_one's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   main
    modules
 
 
