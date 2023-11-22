@@ -1,0 +1,33 @@
+[project]
+name = "add_one"
+version = "0.1.0"
+authors = [
+  		{ name="Example Author", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    		"Programming Language :: Python :: 3",
+    		"License :: OSI Approved :: MIT License",
+    		"Operating System :: OS Independent",
+]
+dependencies = [
+    'rich'
+]
+keywords = ["Space Mission", "BepiColombo", "SIMBIO_SYS"]
+
+[project.optional-dependencies]
+docs = ["sphinx"]
+
+[project.scripts]
+add_one = "add_one.example:add_one"
+
+[tool.setuptools.package-data]
+add_one = [
+    'config/*',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
